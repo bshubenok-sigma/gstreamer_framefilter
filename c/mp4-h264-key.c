@@ -6,7 +6,7 @@
     Download sample:
       wget https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4 -O sample.mp4
 
-    Prepare file with group of pixels of 10:
+    Prepare file with GOP of 10:
       ffmpeg -i sample.mp4 -vcodec libx264 -g 10 -acodec aac fat_sample.mp4
 
     Compile app:
