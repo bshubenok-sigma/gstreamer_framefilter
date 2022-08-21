@@ -1,0 +1,19 @@
+[package]
+name = "h264_iframe_filter"
+version = "0.1.0"
+edition = "2021"
+authors = ["Bohdan Shubenok <bohdan.shubenok@sigma.software>"]
+repository = "https://github.com/bshubenok-sigma/gstreamer_ifilter"
+license = "WTFPL v2"
+description = "H264 I-Frames filter"
+
+[dependencies]
+gstreamer = ">=0.18.0"
+gstreamer-base = ">=0.18.0"
+gstreamer-video = ">=0.18.0"
+gstreamer-player = ">=0.18.0"
+glib = "*"
+anyhow = "*"
+derive_more = "*"
+once_cell = "1"
+clap = { version = "3.0", features = ["derive"]}
